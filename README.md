@@ -1,2 +1,2 @@
 # parent
-2 / Ulfric Parent Project
+Ulfric Parent Project
