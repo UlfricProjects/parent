@@ -208,7 +208,7 @@
 		<dependency>
 			<!-- Bytecode manipulation framework -->
 			<groupId>net.bytebuddy</groupId>
-			<artifactId>bytebuddy</artifactId>
+			<artifactId>byte-buddy</artifactId>
 			<version>1.7.1</version>
 		</dependency>
 
