@@ -16,6 +16,7 @@
 		<java.optimize>true</java.optimize>
 		<java.failOnWarning>true</java.failOnWarning>
 		<verifications>verify</verifications>
+		<testScope>test</testScope>
 	</properties>
 
 	<build>
@@ -218,7 +219,7 @@
 			<groupId>com.google.truth</groupId>
 			<artifactId>truth</artifactId>
 			<version>0.34</version>
-			<scope>test</scope>
+			<scope>${testScope}</scope>
 		</dependency>
 
 		<dependency>
@@ -226,7 +227,7 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
 			<version>5.0.0-M5</version>
-			<scope>test</scope>
+			<scope>${testScope}</scope>
 		</dependency>
 
 		<dependency>
@@ -234,7 +235,7 @@
 			<groupId>org.junit.platform</groupId>
 			<artifactId>junit-platform-runner</artifactId>
 			<version>1.0.0-M5</version>
-			<scope>test</scope>
+			<scope>${testScope}</scope>
 		</dependency>
 
 		<dependency>
@@ -242,7 +243,7 @@
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
 			<version>2.0.2-beta</version>
-			<scope>test</scope>
+			<scope>${testScope}</scope>
 		</dependency>
 	</dependencies>
 
