@@ -200,22 +200,36 @@
 		</dependency>
 
 		<dependency>
-			<!-- JSON framework -->
+			<!-- Common utilities -->
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>22.0</version>
+		</dependency>
+
+		<dependency>
+			<!-- JSON -->
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.8.1</version>
 		</dependency>
 
 		<dependency>
-			<!-- Bytecode manipulation framework -->
+			<!-- Bytecode manipulation -->
 			<groupId>net.bytebuddy</groupId>
 			<artifactId>byte-buddy</artifactId>
 			<version>1.7.1</version>
 		</dependency>
 
+		<dependency>
+			<!-- Dependency injection -->
+			<groupId>com.ulfric.dragoon</groupId>
+			<artifactId>dragoon</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
 		<!-- TESTING -->
 		<dependency>
-			 <!-- Fluent assertions framework -->
+			 <!-- Fluent assertions -->
 			<groupId>com.google.truth</groupId>
 			<artifactId>truth</artifactId>
 			<version>0.34</version>
@@ -223,7 +237,31 @@
 		</dependency>
 
 		<dependency>
-			 <!-- Unit testing framework -->
+			 <!-- More fluent assertions -->
+			<groupId>com.google.truth.extensions</groupId>
+			<artifactId>truth-java8-extension</artifactId>
+			<version>0.34</version>
+			<scope>${testScope}</scope>
+		</dependency>
+
+		<dependency>
+			 <!-- More fluent assertions -->
+			<groupId>com.ulfric.veracity</groupId>
+			<artifactId>veracity</artifactId>
+			<version>1.0.0</version>
+			<scope>${testScope}</scope>
+		</dependency>
+
+		<dependency>
+			 <!-- In memory file system -->
+			<groupId>com.google.jimfs</groupId>
+			<artifactId>jimfs</artifactId>
+			<version>1.1</version>
+			<scope>${testScope}</scope>
+		</dependency>
+
+		<dependency>
+			 <!-- Unit testing -->
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
 			<version>5.0.0-M5</version>
@@ -239,7 +277,7 @@
 		</dependency>
 
 		<dependency>
-			 <!-- Object mocking framework -->
+			 <!-- Object mocking -->
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
 			<version>2.0.2-beta</version>
