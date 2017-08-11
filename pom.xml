@@ -226,36 +226,11 @@
 			<version>2.0.0</version>
 		</dependency>
 
-		<!-- TESTING -->
-		<dependency>
-			 <!-- Fluent assertions -->
-			<groupId>com.google.truth</groupId>
-			<artifactId>truth</artifactId>
-			<version>0.34</version>
-			<scope>${testScope}</scope>
-		</dependency>
-
-		<dependency>
-			 <!-- More fluent assertions -->
-			<groupId>com.google.truth.extensions</groupId>
-			<artifactId>truth-java8-extension</artifactId>
-			<version>0.34</version>
-			<scope>${testScope}</scope>
-		</dependency>
-
 		<dependency>
 			 <!-- More fluent assertions -->
 			<groupId>com.ulfric.veracity</groupId>
 			<artifactId>veracity</artifactId>
 			<version>1.0.0</version>
-			<scope>${testScope}</scope>
-		</dependency>
-
-		<dependency>
-			 <!-- In memory file system -->
-			<groupId>com.google.jimfs</groupId>
-			<artifactId>jimfs</artifactId>
-			<version>1.1</version>
 			<scope>${testScope}</scope>
 		</dependency>
 
@@ -272,14 +247,6 @@
 			<groupId>org.junit.platform</groupId>
 			<artifactId>junit-platform-runner</artifactId>
 			<version>1.0.0-M5</version>
-			<scope>${testScope}</scope>
-		</dependency>
-
-		<dependency>
-			 <!-- Object mocking -->
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-all</artifactId>
-			<version>2.0.2-beta</version>
 			<scope>${testScope}</scope>
 		</dependency>
 	</dependencies>
