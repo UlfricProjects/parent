@@ -17,6 +17,7 @@
 		<verifications>verify</verifications>
 		<testScope>test</testScope>
 		<shadingManagerScope>compile</shadingManagerScope>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<build>
