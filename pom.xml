@@ -168,6 +168,14 @@
 		</dependency>
 
 		<dependency>
+			<!-- Text utilities -->
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-text</artifactId>
+			<version>1.2</version>
+			<scope>${shadingManagerScope}</scope>
+		</dependency>
+
+		<dependency>
 			<!-- Additional collections -->
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-collections4</artifactId>
